@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005380D62AA0F98100FF1801 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005380D52AA0F98100FF1801 /* View1.swift */; };
 		00680A662A9FB93C00037F02 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00680A652A9FB93C00037F02 /* WeSplitApp.swift */; };
 		00680A682A9FB93C00037F02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00680A672A9FB93C00037F02 /* ContentView.swift */; };
 		00680A6A2A9FB93D00037F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00680A692A9FB93D00037F02 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		005380D52AA0F98100FF1801 /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
 		00680A622A9FB93C00037F02 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00680A652A9FB93C00037F02 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
 		00680A672A9FB93C00037F02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		005380D42AA0F93600FF1801 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				005380D52AA0F98100FF1801 /* View1.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		00680A592A9FB93C00037F02 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		00680A642A9FB93C00037F02 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				005380D42AA0F93600FF1801 /* View */,
 				00680A652A9FB93C00037F02 /* WeSplitApp.swift */,
 				00680A672A9FB93C00037F02 /* ContentView.swift */,
 				00680A692A9FB93D00037F02 /* Assets.xcassets */,
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00680A682A9FB93C00037F02 /* ContentView.swift in Sources */,
+				005380D62AA0F98100FF1801 /* View1.swift in Sources */,
 				00680A662A9FB93C00037F02 /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
